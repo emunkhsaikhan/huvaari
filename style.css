@@ -109,3 +109,28 @@ p {
     padding: 10px;
     border-radius: 15px;
 }
+.main .switcher {
+    position: absolute;
+    top: 25%;
+    z-index: 99;
+    width: 100%;
+    height: 10vh;
+    left: 3%;
+}
+.main .switcher button {
+    border: 1px solid green;
+    border-radius: 20px;
+    background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .1));
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.main .switcher button:hover {
+    background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .4));
+    transition: .4s ease;
+}
+.main .switcher button a {
+    text-decoration: none;
+    color: #111;
+}
