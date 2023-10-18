@@ -93,7 +93,7 @@ p {
     justify-content: space-between;
 }
 #lecture {
-    border: 0px solid greenyellow;
+    border: 0px solid rgb(182, 255, 72);
     background: greenyellow;
     padding: 10px;
     border-radius: 15px;
