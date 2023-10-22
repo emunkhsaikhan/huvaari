@@ -2,8 +2,18 @@
 <html lang="en">
     <style>
         table, th, td {
-            border: 2px solid orange;
+            border: 1px solid rgb(182, 255, 72);
         }
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        th, td {
+        padding: 8px;
+        }
+        tr:hover {background-color: rgb(178, 217, 116);}
+        tr:nth-child(even) {background-color: #1d1919;}
     </style>
 <head>
     <meta charset="UTF-8">
@@ -25,7 +35,7 @@
         <div class="switcher">
             <button><a href="index.html">Хуваарь хялбараар харах</a></button>
         </div>
-        <div class="schedule">
+        <div style="overflow-x: auto;" class="schedule">
 
             <table style="width: 100%;"> 
                 <tr class="times">  

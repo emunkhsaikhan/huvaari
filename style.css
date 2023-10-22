@@ -17,7 +17,7 @@
 }
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 20;
     background-color: #111111;
 }
 h1 {
@@ -103,18 +103,21 @@ p {
     justify-content: space-between;
 }
 #lecture {
+    color:#080808;
     border: 0px solid rgb(182, 255, 72);
     background: greenyellow;
     padding: 10px;
     border-radius: 15px;
 }
 #lab {
+    color: #080808;
     border: 0px solid cyan;
     background: cyan;
     padding: 10px;
     border-radius: 15px;
 }
 #sem {
+    color: #080808;
     border: 0px solid pink;
     background: pink;
     padding: 10px;
