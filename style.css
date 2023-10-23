@@ -39,13 +39,11 @@ p {
 .main .head {
     width: 100%;
     position: absolute;
-    top: 0;
 }
 .main .head h1 {
     top: 10px;
     position: absolute;
     width: 100%;
-    z-index: 10;
     color: aliceblue;
     text-align: center;
 }
@@ -53,21 +51,22 @@ p {
 .main .schedule {
     position: absolute;
     top: 250px;
-    width: 95%;
+    width: 100%;
     object-fit: contain;
-    display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin: 10px ;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; 
 }
 .main .schedule .sched-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
     width: 100%;
     border: 1px green solid;
     padding: 0 10px 0 10px;
     border-radius: 30px;
-    opacity: 1;
     background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .1));
 }
 .main .schedule .sched-box h2 {
@@ -113,6 +112,8 @@ p {
     width: 100%;
     height: 10vh;
     left: 3%;
+    margin: 10px;
+    padding: 20px;
 }
 .main .switcher button {
     border: 1px solid green;
@@ -131,3 +132,8 @@ p {
     text-decoration: none;
     color: #f1eeee;
 }
+@media (max-width: 800px) {
+    .main .schedule {
+      flex-direction: column;
+    }
+  }
