@@ -1,14 +1,12 @@
-if(localStorage.getItem('announcement') === 'hidden'){
 
-} else {
-    const navHeight = document.querySelector('nav').offsetHeight;
-    document.querySelector('.announcement').computedStyleMap.top = `${navHeight}px` ;
+const warning = document.getElementById('announcement');
+const closeBtn = document.getElementById('announcement_Button');
+
+Announcement_button.addEventListener('click', function () {
+    Announcement.style.display = 'none';
+});
+
+function showAnnouncement() {
+    Announcement.style.display = 'block';
 }
-
-const announcement = document.querySelector('.announcement');
-
-function hideAnnouncement() {
-    announcement.computedStyleMap.top = '0px' ;
-    localStorage.setItem('announcement', 'hidden');
-  
-}
+setTimeout(showAnnouncement, 2000);
