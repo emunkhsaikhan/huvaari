@@ -145,7 +145,7 @@ p {
     left: 0;
     right: 0;
     text-align: center;
-    line-height: 1.4;
+line-height: 1.4;
     box-shadow: 0 4px 10px rgba(46, 204, 113, .1);
 }
 
@@ -161,12 +161,12 @@ p {
     position: absolute;
     right: .7rem;
     border: none;
-    background: url(assets/cancel.png);
+background: url(assets/cancel.png);
     height: 1.2rem;
     width: 1.2rem;
     background-size: contain;
     cursor: pointer;
-    transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
 }
 .announcement_button:hover {
     transform: scale(1.1);
