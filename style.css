@@ -37,10 +37,9 @@ p {
     position: relative;
 }
 .main .head {
-        width: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
-    left: 33%;
 }
 .main .head h1 {
     top: 10px;
@@ -48,14 +47,7 @@ p {
     width: 100%;
     z-index: 10;
     color: aliceblue;
-}
-.main .head img {
-    width: 650px;
-    right: 750px;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
+    text-align: center;
 }
 
 .main .schedule {
@@ -66,7 +58,7 @@ p {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin-left: 30px;
+    margin: 10px ;
 }
 .main .schedule .sched-box {
     display: flex;
