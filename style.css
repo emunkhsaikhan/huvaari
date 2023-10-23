@@ -136,4 +136,38 @@ p {
     .main .schedule {
       flex-direction: column;
     }
-  }
+}
+.announcement {
+    background-color: #24391f;
+    color: #efefef;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 1.4;
+    box-shadow: 0 4px 10px rgba(46, 204, 113, .1);
+}
+
+.announcement_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2 2.8rem;
+    font-weight: 500;
+}
+
+.announcement_button {
+    position: absolute;
+    right: .7rem;
+    border: none;
+    background: url(assets/cancel.png);
+    height: 1.2rem;
+    width: 1.2rem;
+    background-size: contain;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.announcement_button:hover {
+    transform: scale(1.1);
+}
