@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 :root {
-    --main-color: linear-gradient(to bottom, rgb(227, 222, 214) 30%, rgb(210, 231, 210) 70%);
+    --main-color: linear-gradient(to bottom, rgb(188, 157, 108) 30%, rgb(109, 237, 109) 70%);
 }
 
 * {
