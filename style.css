@@ -90,18 +90,34 @@ p {
     justify-content: space-between;
 }
 #lecture {
+    color: black;
     border: 0px solid greenyellow;
     background: greenyellow;
     padding: 10px;
     border-radius: 15px;
 }
+.databtn {
+    border: 1px solid green;
+    border-radius: 20px;
+    background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .1));
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.main .schedule .sched-box .lesson-box button:hover {
+    background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .4));
+    transition: .4s ease;
+}
 #lab {
+    color: black;
     border: 0px solid cyan;
     background: cyan;
     padding: 10px;
     border-radius: 15px;
 }
 #sem {
+    color: black;
     border: 0px solid pink;
     background: pink;
     padding: 10px;
