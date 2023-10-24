@@ -83,8 +83,22 @@
                     <p>Алгоритмын үндэс <span id="lab">Лаб</span></p>                
                 </div>
                 
-            </div>
-            
+            </div>            
+        </div>
+
+        <div class="getEmail">
+            <p> Холбоотой байгаарай! ^^ </p>
+
+            <form id="frm1" action="page.php">
+                Email хаяг: <input class= "input" type="email" name="email">
+                <input class="input" type="button" onclick="getEmailFunction()" value="Илгээх">
+            </form>
+
+            <script>
+                function getEmailFunction() {
+                document.getElementById("frm1").submit();
+                }
+            </script>
         </div>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>

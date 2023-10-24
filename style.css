@@ -157,3 +157,19 @@ p {
     }
 }
 
+.main .getEmail {
+    border: 1px solid green;
+    border-radius: 20px;
+    background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .1));
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: absolute;
+    top: 100%;
+    right: 3%; 
+
+}
+.main .getEmail .input {
+    color:#111111;
+}
