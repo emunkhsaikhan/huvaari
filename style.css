@@ -173,3 +173,9 @@ p {
 .main .getEmail .input {
     color:#111111;
 }
+@media (max-width: 1000px) {
+    .main .getEmail {
+        display:none;
+        
+    }
+}
