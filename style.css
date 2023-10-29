@@ -55,8 +55,8 @@ p {
     z-index: 1;
 }
 .main .schedule {
-    position: absolute;
-    top: 250px;
+    position: relative;
+    top: 50px;
     width: 95%;
     object-fit: contain;
     display: flex;
@@ -64,6 +64,7 @@ p {
     gap: 10px;
     margin-left: 30px;
 }
+
 .main .schedule .sched-box {
     display: flex;
     flex-direction: column;
@@ -124,7 +125,7 @@ p {
     border-radius: 15px;
 }
 .main .switcher {
-    position: absolute;
+    position: relative;
     top: 25%;
     z-index: 99;
     width: 100%;
@@ -173,9 +174,20 @@ p {
 .main .getEmail .input {
     color:#111111;
 }
-@media (max-width: 1000px) {
-    .main .getEmail {
-        display:none;
-        
-    }
+
+.main .getInfo {
+    border: 1px solid green;
+    border-radius: 20px;
+    background: linear-gradient(rgba(249, 104, 10, .1), rgba(46, 204, 113, .1));
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: relative;
+    top: 100px;
+    left: 3%; 
+
+}
+.main .getInfo .input {
+    color:#111111;
 }

@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+<script>
+
+    function createform() {
+        var element = document.getElementsByClassName("getInfo")
+        element[0].style.display = "block";
+    }
+
+    // function display() {
+    //     var x = document.details.fname.value;
+    //     var y = document.details.lname.value;
+    //     var z = document.details.phnum.value;
+    //     alert("FIRST NAME:" + x + "     " + "LAST NAME:" + y + "     " + "PHONE NUMBER:" + z);
+    // }
+
+</script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,64 +26,94 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
 </head>
-<body id = "particles-js" class="main">
-        <h1 class="head">Судалж буй хичээлүүд</h1>
-        <nav class="switcher">
-            <button><a href="timetable.html">Хуваарь хүснэгтээр харах</a></button>
-            <button><a href="index.html">Хуваарь хялбараар харах</a></button>
-        </nav>
-        <div class="schedule">
-            <div class="sched-box">
-                <h2>Хичээл 1</h2>
-                <div class="lesson-box">
-                    <p>Багц цагийн тоо:<span>3</span></p>
-                    <p>Интернэт технологи
-                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button></p>
-                    <script>
-                        function alert1Function() {
-                          alert("Одоогоор дэлгэрэнгүй мэдээлэл ороогүй байнаөө! ^^ ");
-                        }
-                    </script>                                 
-                </div>
+
+<body id="particles-js" class="main">
+    <h1 class="head">Судалж буй хичээлүүд</h1>
+    <nav class="switcher">
+        <button><a href="timetable.html">Хуваарь хүснэгтээр харах</a></button>
+        <button><a href="index.html">Хуваарь хялбараар харах</a></button>
+    </nav>
+    <nav class="switcher">
+        <button onclick="createform()">Хичээл нэмэх</button>
+    </nav>
+    <div class="schedule">
+        <div class="sched-box">
+            <h2>Хичээл 1</h2>
+            <div class="lesson-box">
+                <p>Багц цагийн тоо:<span>3</span></p>
+                <p>Интернэт технологи
+                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button>
+                </p>
+                <script>
+                    function alert1Function() {
+                        alert("Одоогоор дэлгэрэнгүй мэдээлэл ороогүй байнаөө! ^^ ");
+                    }
+                </script>
             </div>
-            <div class="sched-box">
-                <h2>Хичээл 2</h2>
-                <div class="lesson-box">
-                    <p>Багц цагийн тоо:<span>3</span></p>
-                    <p>Програмчлалын арга зүй      
-                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button></p>                                 
-                </div>
-            </div>
-            <div class="sched-box">
-                <h2>Хичээл 3</h2>
-                <div class="lesson-box">
-                    <p>Багц цагийн тоо:<span>3</span></p>
-                    <p>Англи хэл (ахисан)         
-                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button></p>                                 
-                </div>
-            </div>
-            <div class="sched-box">
-                <h2>Хичээл 4</h2>
-                <div class="lesson-box">
-                    <p>Багц цагийн тоо:<span>3</span></p>
-                    <p>Инженерийн физик           
-                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button></p>                                 
-                </div>
-            </div>
-            <div class="sched-box">
-                <h2>Хичээл 5</h2>
-                <div class="lesson-box">
-                    <p>Багц цагийн тоо:<span>3</span></p>
-                    <p>Алгоритмын үндэс           
-                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button></p>                                 
-                </div>
-                
-            </div>
-            
         </div>
+        <div class="sched-box">
+            <h2>Хичээл 2</h2>
+            <div class="lesson-box">
+                <p>Багц цагийн тоо:<span>3</span></p>
+                <p>Програмчлалын арга зүй
+                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button>
+                </p>
+            </div>
+        </div>
+        <div class="sched-box">
+            <h2>Хичээл 3</h2>
+            <div class="lesson-box">
+                <p>Багц цагийн тоо:<span>3</span></p>
+                <p>Англи хэл (ахисан)
+                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button>
+                </p>
+            </div>
+        </div>
+        <div class="sched-box">
+            <h2>Хичээл 4</h2>
+            <div class="lesson-box">
+                <p>Багц цагийн тоо:<span>3</span></p>
+                <p>Инженерийн физик
+                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button>
+                </p>
+            </div>
+        </div>
+        <div class="sched-box">
+            <h2>Хичээл 5</h2>
+            <div class="lesson-box">
+                <p>Багц цагийн тоо:<span>3</span></p>
+                <p>Алгоритмын үндэс
+                    <hr> <br> <button onclick="alert1Function()" class="databtn">Дэлгэрэнгүй</button>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="getInfo" style="display: none;">
+        <form id="frm1" action="page.php">
+            Email хаяг: <input class= "input" type="email" name="email">
+            <input class="input" type="button" onclick="getEmailFunction()" value="Илгээх">
+        </form>
+    </div>
+
+    <!-- <form name=details>
+<table>
+ <tr><td>ENTER  FRIST NAME:<input type=text  name=fname></td></tr>
+ <tr><td>ENTER  LAST  NAME:<input type=text  name=lname></td></tr>
+ <tr><td>ENTER  PHONE NUM :<input type=text  name=phnum></td></tr>
+</table>
+<input type="button" value="Click Me" onclick="display();">
+ </form> -->
+
+    
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
