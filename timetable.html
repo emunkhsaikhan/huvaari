@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        table, th, td {
-            border: 2px solid orange;
-        }
-    </style>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="assets/calendar.png">
+    <title>Хичээлийн хуваарь хүснэгт</title>
     <link rel="stylesheet" href="style.css" />
     
     <!-- Google Font -->
@@ -17,17 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
 </head>
-<body>
-    <section class="main">
-        <img src="assets/bg.jpg" alt="background" class="bg"/>
-        <div class="head">
-            <h1>Оюутны хичээлийн хуваарь</h1>
-            <img src="assets/text-bg.png" alt="txt_bg" />
-        </div>
-        <div class="switcher">
+<body id = "particles-js" class="main">
+        <h1 class="head">Хичээлийн хүснэгтэн хуваарь</h1>
+        <nav class="switcher">
             <button><a href="index.html">Хуваарь хялбараар харах</a></button>
-        </div>
-        <div class="schedule">
+            <button><a href="totalle.html">Үзэж буй нийт хичээл харах</a></button>
+        </nav>
+
+        <div style="overflow-x: auto;" class="schedule">
 
             <table style="width: 100%;"> 
                 <tr class="times">  
@@ -147,6 +141,7 @@
             </table>
             
         </div>
-    </section>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
