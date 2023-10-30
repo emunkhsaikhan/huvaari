@@ -27,6 +27,12 @@ p {
     font-weight: 300;
 }
 
+#tableLook {
+    visibility:hidden;
+}
+#easyLook {
+    visibility: visible;
+}
 .main {
     width: 100%;
     display:grid
@@ -179,3 +185,16 @@ p {
         
     }
 }
+table, th, td {
+    border: 1px solid rgb(182, 255, 72);
+}
+table {
+border-collapse: collapse;
+width: 90%;
+}
+
+th, td {
+padding: 4px;
+}
+tr:hover {background-color: rgb(178, 217, 116);}
+tr:nth-child(even) {background-color: #1d1919;}
